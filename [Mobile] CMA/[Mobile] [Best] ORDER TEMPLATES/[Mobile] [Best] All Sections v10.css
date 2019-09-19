@@ -1,0 +1,92 @@
+<style>
+
+/*Fixed Fader Nav*/  
+
+#lp-pom-box-4130, #lp-pom-box-4130-color-overlay {display: none;}
+
+/*Button Shadows*/
+
+#lp-pom-button-3491, #lp-pom-button-3513, #lp-pom-button-3534 {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease 0s;
+  }
+  
+#lp-pom-button-3578, #lp-pom-button-3556, #lp-pom-button-4080, #lp-pom-button-3662, #lp-pom-button-3683, #lp-pom-button-4100, #lp-pom-button-3482, #lp-pom-button-4024, #lp-pom-button-4037, #lp-pom-button-4052 {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.18);
+  transition: all 0.3s ease 0s;
+  }
+
+/*Child Section Static Shadow*/
+  
+#lp-pom-box-3489, #lp-pom-box-3511, #lp-pom-box-3532, #lp-pom-box-3576, #lp-pom-box-3554, #lp-pom-box-4079, #lp-pom-box-3660, #lp-pom-box-3681, #lp-pom-box-4099, #lp-pom-box-4017, #lp-pom-box-4031, #lp-pom-box-4045 {
+  -webkit-box-shadow: 2px 4px 14x -8px rgba(1,31,75,0.95); 
+  -moz-box-shadow: 2px 4px 14px -8px rgba(1,31,75,0.95); 
+  box-shadow: 2px 4px 14px -8px rgba(1,31,75,0.95);
+  -webkit-transition-duration: 1s ease-in-out;
+  -moz-transition-duration: 1s ease-in-out;
+}
+  
+/*Text Link Styling*/
+  
+.lp-pom-text a {
+  text-decoration: none !important;
+}
+
+/*Advertising Disclosure Header Modal*/
+
+.modal {
+  position: fixed !important;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 2px 4px 14x -8px rgba(1,31,75,0.95); 
+  -moz-box-shadow: 2px 4px 14px -8px rgba(1,31,75,0.95); 
+  box-shadow: 2px 4px 14px -8px rgba(1,31,75,0.95);
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(1.1);
+  transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+.modal-content {
+  position: absolute;
+  top: 18%;
+  left: 10%;
+  right: 10%
+  transform: translate(-50%, -50%);
+  background-color: #f9f9f9 !important;
+  padding: 1rem 1.5rem;
+  max-width: 60rem;
+  word-wrap: break-word;
+  font-size: 0.7em;
+  border-radius: 0.5rem;
+  font-family: Montserrat;
+  z-index: 100 !important;
+  border: solid 1px rgba(255, 255, 255, 0.31);
+  -webkit-box-shadow: 2px 4px 14x -8px rgba(1,31,75,0.95); 
+  -moz-box-shadow: 2px 4px 14px -8px rgba(1,31,75,0.95); 
+  box-shadow: 2px 4px 14px -8px rgba(1,31,75,0.95);
+}
+
+.close-button {
+  float: right;
+  width: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  background-color: #cccccc;
+}
+.close-button:hover {
+  background-color: #b7b7b7;
+}
+.show-modal {
+  opacity: 1;
+  visibility: visible !important;
+  transform: scale(1.0);
+  transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+
+
+</style>

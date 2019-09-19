@@ -1,0 +1,115 @@
+<style>
+
+/*Fixed Fader Nav*/  
+
+#lp-pom-box-4614, 
+#lp-pom-box-4614-color-overlay {display: none;}
+
+@media only screen and (min-width: 981px) { 
+  #lp-pom-box-4614 { 
+    display: none !important; 
+  } 
+}
+
+/*Button Shadows*/
+
+#lp-pom-button-4410, 
+#lp-pom-button-4429, 
+#lp-pom-button-4449 {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease 0s;
+  }
+  
+#lp-pom-button-4469, 
+#lp-pom-button-4489, 
+#lp-pom-button-4509, 
+#lp-pom-button-4529, 
+#lp-pom-button-4549, 
+#lp-pom-button-4569, 
+#lp-pom-button-4589, 
+#lp-pom-button-4405, 
+#lp-pom-button-4351, 
+#lp-pom-button-4364, 
+#lp-pom-button-4378 {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.18);
+  transition: all 0.3s ease 0s;
+  }
+
+/*Child Section Static Shadow*/
+  
+#lp-pom-box-4408, 
+#lp-pom-box-4428, 
+#lp-pom-box-4448, 
+#lp-pom-box-4468, 
+#lp-pom-box-4488, 
+#lp-pom-box-4508, 
+#lp-pom-box-4528, 
+#lp-pom-box-4548, 
+#lp-pom-box-4568, 
+#lp-pom-box-4588, 
+#lp-pom-box-4344, 
+#lp-pom-box-4358, 
+#lp-pom-box-4372 {
+  -webkit-box-shadow: 2px 4px 14x -8px rgba(1,31,75,0.95); 
+  -moz-box-shadow: 2px 4px 14px -8px rgba(1,31,75,0.95); 
+  box-shadow: 2px 4px 14px -8px rgba(1,31,75,0.95);
+  -webkit-transition-duration: 1s ease-in-out;
+  -moz-transition-duration: 1s ease-in-out;
+}
+  
+/*Text Link Styling*/
+  
+.lp-pom-text a {
+  text-decoration: none !important;
+}
+
+/* Advertiser Disclosure Tooltip */
+  
+.tooltip {
+  position: relative;
+}
+  
+.tooltip:before,
+.tooltip:after {
+  display: block;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+}
+  
+.tooltip:after {
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid rgba(0,0,0,.85); 
+  border-left: 10px solid transparent;
+  content: '';
+  height: 0;
+  top: 20px;
+  left: 20px;
+  width: 0;
+  border-radius: 6px;
+}
+  
+.tooltip:before {
+  background: rgba(0,0,0,.85);
+  border-radius: 6px;
+  color: #fff;
+  content: attr(data-title);
+  font-size: 8px;
+  padding: 10px 12px;
+  top: 26px;
+  white-space: pre-wrap;
+}
+  
+.tooltip.fade:after,
+.tooltip.fade:before {
+  transform: translate3d(0,-10px,0);
+  transition: all .15s ease-in-out;
+}
+  
+.tooltip.fade:hover:after,
+.tooltip.fade:hover:before {
+  opacity: 1;
+  transform: translate3d(0,0,0);
+}
+
+</style>

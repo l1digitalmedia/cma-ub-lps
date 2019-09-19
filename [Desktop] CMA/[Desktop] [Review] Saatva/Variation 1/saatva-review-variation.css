@@ -1,0 +1,109 @@
+<style>
+
+/*Child Section Static Shadow*/  
+  
+#lp-pom-box-2867, #lp-pom-box-2878, #lp-pom-box-3192 {
+  -webkit-box-shadow: 2px 4px 14x -8px rgba(1,31,75,0.95); 
+  -moz-box-shadow: 2px 4px 14px -8px rgba(1,31,75,0.95); 
+  box-shadow: 2px 4px 14px -8px rgba(1,31,75,0.95);
+  -webkit-transition-duration: 0.5s ease-in-out;
+  -moz-transition-duration: 0.5s ease-in-out;
+} 
+  
+/*Button Hover Effects*/
+  
+.lp-pom-button {
+  vertical-align: middle;
+  -webkit-transform: perspective(0px) translateZ(0);
+  transform: perspective(0px) translateZ(0);
+   -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  border: solid 1px rgba(255, 255, 255, 0.31);
+  -webkit-box-shadow: 0px 2px 4px 0 rgba(28, 44, 64, 0.17);
+          box-shadow: 0px 2px 4px 0 rgba(28, 44, 64, 0.17);
+}
+ 
+.lp-pom-button:hover {
+  -webkit-transform: translateX(4px);
+  transform: translateX(4px);
+    -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+/*Button Wiggle 5s Timer*/
+  
+#lp-pom-button-2256 {
+  -webkit-animation: btnWiggle 5s infinite;
+  -moz-animation: btnWiggle 5s infinite;
+  -o-animation: btnWiggle 5s infinite;
+  animation: btnWiggle 5s infinite;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+}
+  
+/*Button Wiggle animation*/
+  
+@-webkit-keyframes btnWiggle {
+	0% {-webkit-transform: rotate(0deg);}
+	2% {-webkit-transform: rotate(-2deg);}
+	3.5% {-webkit-transform: rotate(2deg);}
+	5% {-webkit-transform: rotate(0deg);}
+	100% {-webkit-transform: rotate(0deg);}
+}
+  
+@-o-keyframes btnWiggle {
+	0% {-webkit-transform: rotate(0deg);}
+	2% {-webkit-transform: rotate(-2deg);}
+	3.5% {-webkit-transform: rotate(2deg);}
+	5% {-webkit-transform: rotate(0deg);}
+	100% {-webkit-transform: rotate(0deg);}
+}
+  
+@keyframes btnWiggle {
+	0% {-webkit-transform: rotate(0deg);}
+	2% {-webkit-transform: rotate(-2deg);}
+	3.5% {-webkit-transform: rotate(2deg);}
+	5% {-webkit-transform: rotate(0deg);}
+	100% {-webkit-transform: rotate(0deg);}
+} 
+  
+/*Text Link Styling*/
+  
+.lp-pom-text a:link {
+  color: #3485FC !important;
+  text-decoration: none !important;
+  padding-bottom: 2px !important;
+}
+
+.lp-pom-text a:hover {
+  color: #F44500 !important;
+}
+
+/*Footer Link Styling*/
+
+#lp-pom-text-3034 a:link {
+  color: #ffffff !important;
+  }
+  
+#lp-pom-text-3034 a:hover {
+  color: #F44500 !important;
+  }
+
+/*Menu Link Styling*/
+  
+#lp-pom-text-3045 a:link, #lp-pom-text-3046 a:link, #lp-pom-text-3047 a:link {
+  color: #929292 !important;
+  }
+  
+#lp-pom-text-3045 a:hover, #lp-pom-text-3046 a:hover, #lp-pom-text-3047 a:hover {
+  color: #F44500 !important;
+  }
+
+</style>
+

@@ -1,0 +1,69 @@
+<style>
+
+/*Button Hover Effects*/
+  
+.lp-pom-button {
+  vertical-align: middle;
+  -webkit-transform: perspective(0px) translateZ(0);
+  transform: perspective(0px) translateZ(0);
+   -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  border: solid 1px rgba(255, 255, 255, 0.31);
+  -webkit-box-shadow: 0px 2px 4px 0 rgba(28, 44, 64, 0.17);
+          box-shadow: 0px 2px 4px 0 rgba(28, 44, 64, 0.17);
+}
+ 
+.lp-pom-button:hover {
+  -webkit-transform: translateX(4px);
+  transform: translateX(4px);
+    -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+/*Text Link Styling*/
+  
+.lp-pom-text a:link {
+  color: #3485FC !important;
+  text-decoration: none !important;
+  padding-bottom: 2px !important;
+}
+
+.lp-pom-text a:hover {
+  color: #F44500 !important;
+}
+
+/*Footer Link Styling*/
+
+#lp-pom-text-2711 a:link {
+  color: #ffffff !important;
+  }
+  
+#lp-pom-text-2711 a:hover {
+  color: #F44500 !important;
+  }
+
+/*Menu Link Styling*/
+  
+#lp-pom-text-2707 a:link, #lp-pom-text-2708 a:link, #lp-pom-text-2709 a:link {
+  color: #929292 !important;
+  }
+  
+#lp-pom-text-2707 a:hover, #lp-pom-text-2708 a:hover, #lp-pom-text-2709 a:hover {
+  color: #F44500 !important;
+  }
+  
+/*Child Section Static Shadow*/
+  
+#lp-pom-box-76, #lp-pom-box-2601, #lp-pom-box-2608 {
+  -webkit-box-shadow: 2px 4px 14x -8px rgba(1,31,75,0.95); 
+  -moz-box-shadow: 2px 4px 14px -8px rgba(1,31,75,0.95); 
+  box-shadow: 2px 4px 14px -8px rgba(1,31,75,0.95);
+  -webkit-transition-duration: 1s ease-in-out;
+  -moz-transition-duration: 1s ease-in-out;
+}
+
+</style>

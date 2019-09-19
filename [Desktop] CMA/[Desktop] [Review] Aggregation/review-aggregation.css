@@ -1,0 +1,47 @@
+<style>
+
+#lp-pom-box-76, #lp-pom-box-2747, #lp-pom-box-2754{
+  -webkit-box-shadow: 2px 4px 14x -8px rgba(1,31,75,0.95); 
+  -moz-box-shadow: 2px 4px 14px -8px rgba(1,31,75,0.95); 
+  box-shadow: 2px 4px 14px -8px rgba(1,31,75,0.95);
+  -webkit-transition-duration: 1s ease-in-out;
+  -moz-transition-duration: 1s ease-in-out;
+}
+  
+/*Button Hover Effects*/
+  
+.lp-pom-button {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  border: solid 1px rgba(255, 255, 255, 0.31);
+  -webkit-box-shadow: 0px 2px 4px 0 rgba(28, 44, 64, 0.17);
+          box-shadow: 0px 2px 4px 0 rgba(28, 44, 64, 0.17);
+}
+  
+.lp-pom-button {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  transition: all 0.5;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+  
+.lp-pom-button:hover {
+  -webkit-transform: translateX(4px);
+  transform: translateX(4px);
+    -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+     text-decoration: none;
+    -webkit-box-shadow: 0px 3px 8px 0 rgba(28, 44, 64, 0.32);
+            box-shadow: 0px 3px 8px 0 rgba(28, 44, 64, 0.32);
+}
+
+</style>

@@ -1,0 +1,147 @@
+<style>
+
+/*Child Section Static Shadow*/
+  
+#lp-pom-box-3643, #lp-pom-box-3701, #lp-pom-box-4248, #lp-pom-box-3730, #lp-pom-box-3672, #lp-pom-box-3786, #lp-pom-box-3814, #lp-pom-box-3999, #lp-pom-box-4049, #lp-pom-box-4280, #lp-pom-box-3869, #lp-pom-box-3891, #lp-pom-box-4308 {
+  -webkit-box-shadow: 2px 4px 14px -8px rgba(1,31,75,0.95); 
+  -moz-box-shadow: 2px 4px 14px -8px rgba(1,31,75,0.95); 
+  box-shadow: 2px 4px 14px -8px rgba(1,31,75,0.95);
+}
+
+/*Button Hover Effects*/
+  
+.lp-pom-button {
+  -webkit-transform: perspective(0px) translateZ(0);
+  transform: perspective(0px) translateZ(0);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+ 
+.lp-pom-button:hover {
+  -webkit-transform: translateX(4px);
+  transform: translateX(4px);
+}
+  
+/*Saatva Main CTA Wiggle + Shadow*/
+  
+#lp-pom-button-4107 {
+  -webkit-animation: btnWiggle 5s infinite;
+  -moz-animation: btnWiggle 5s infinite;
+  -o-animation: btnWiggle 5s infinite;
+  animation: btnWiggle 5s infinite;
+  box-shadow: 0px 8px 13px rgba(0, 0, 0, 0.2);
+}
+
+/*Saatva Bottom CTA Shadow*/
+
+#lp-pom-button-3949, #lp-pom-button-4203 {
+  box-shadow: 0px 8px 13px rgba(0, 0, 0, 0.2);
+}
+  
+#lp-pom-button-4107:hover, #lp-pom-button-3949:hover, #lp-pom-button-4203:hover {
+  box-shadow: 0px 12px 15px rgba(255, 69, 0, 0.25);
+}
+
+/*Nav Button Fix*/
+
+#lp-pom-button-4111:hover {
+  -webkit-transform: translateX(0px);
+  transform: translateX(0px);
+}
+  
+/*Button Wiggle animation */
+  
+@-webkit-keyframes btnWiggle {
+	0% {-webkit-transform: rotate(0deg);}
+	2% {-webkit-transform: rotate(-2deg);}
+	3.5% {-webkit-transform: rotate(2deg);}
+	5% {-webkit-transform: rotate(0deg);}
+	100% {-webkit-transform: rotate(0deg);}
+}
+  
+@-o-keyframes btnWiggle {
+	0% {-webkit-transform: rotate(0deg);}
+	2% {-webkit-transform: rotate(-2deg);}
+	3.5% {-webkit-transform: rotate(2deg);}
+	5% {-webkit-transform: rotate(0deg);}
+	100% {-webkit-transform: rotate(0deg);}
+}
+  
+@keyframes btnWiggle {
+	0% {-webkit-transform: rotate(0deg);}
+	2% {-webkit-transform: rotate(-2deg);}
+	3.5% {-webkit-transform: rotate(2deg);}
+	5% {-webkit-transform: rotate(0deg);}
+	100% {-webkit-transform: rotate(0deg);}
+} 
+
+/*Text Link Styling*/
+  
+.lp-pom-text a:link {
+  color: #3485FC !important;
+  text-decoration: none !important;
+  padding-bottom: 2px !important;
+}
+  
+/*Header Link Styling*/
+  
+#lp-pom-text-73 a:link {
+  color: #FFFFFF !important;
+}
+  
+/*Footer Link Styling*/
+  
+#lp-pom-text-3184 a:link {
+  color: #FFFFFF !important;
+  }
+  
+/* Advertiser Disclosure Tooltip */
+  
+.tooltip {
+  position: relative;
+}
+  
+.tooltip:before,
+.tooltip:after {
+  display: block;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+}
+  
+.tooltip:after {
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid rgba(0,0,0,.85); 
+  border-left: 10px solid transparent;
+  content: '';
+  height: 0;
+  top: 20px;
+  left: 20px;
+  width: 0;
+  border-radius: 6px;
+}
+  
+.tooltip:before {
+  background: rgba(0,0,0,.85);
+  border-radius: 6px;
+  color: #fff;
+  content: attr(data-title);
+  font-size: 10px;
+  padding: 10px 12px;
+  top: 26px;
+  white-space: pre-wrap;
+}
+  
+.tooltip.fade:after,
+.tooltip.fade:before {
+  transform: translate3d(0,-10px,0);
+  transition: all .15s ease-in-out;
+}
+  
+.tooltip.fade:hover:after,
+.tooltip.fade:hover:before {
+  opacity: 1;
+  transform: translate3d(0,0,0);
+}
+
+</style>

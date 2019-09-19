@@ -1,0 +1,10 @@
+
+/*Mobile Sticky Nav*/
+
+@media only screen and (max-width: 960px) {
+    #lp-pom-box-4951, #lp-pom-box-4951-color-overlay {
+    position: fixed !important;
+    z-index: 99999 !important;
+    width: 100vw !important
+    }
+    }

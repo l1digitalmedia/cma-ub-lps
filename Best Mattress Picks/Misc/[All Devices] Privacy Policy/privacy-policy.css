@@ -1,0 +1,25 @@
+<style>
+  
+/*Text Link Styling*/
+  
+.lp-pom-text a:link {
+  color: #3485FC !important;
+  text-decoration: none !important;
+  padding-bottom: 2px !important;
+}
+
+.lp-pom-text a:hover {
+  color: #F44500 !important;
+}
+  
+/*Footer Link Styling*/
+
+#lp-pom-text-2670 a:link {
+  color: #FFFFFF !important;
+  }
+  
+#lp-pom-text-2670 a:hover {
+  color: #F44500 !important;
+  }
+
+</style>

@@ -1,0 +1,63 @@
+
+<style>
+  @media screen and (min-width: 0px) and (max-width: 400px) {
+  #lp-pom-box-4823, #lp-pom-box-4823-color-overlay { display: block; }  /* show it on small screens */
+}
+  @media screen and (min-width: 401px) and (max-width: 5000px) {
+  #lp-pom-box-4823, #lp-pom-box-4823-color-overlay { display: none; }   /* hide it elsewhere */
+}
+
+/*Button Shadows*/
+
+#lp-pom-button-4107, 
+#lp-pom-button-4129, 
+#lp-pom-button-4149 {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease 0s;
+  }
+  
+#lp-pom-button-4169, 
+#lp-pom-button-4189, 
+#lp-pom-button-4209, 
+#lp-pom-button-4229, 
+#lp-pom-button-4249, 
+#lp-pom-button-4269, 
+#lp-pom-button-4289, 
+#lp-pom-button-3482, 
+#lp-pom-button-4024, 
+#lp-pom-button-4037, 
+#lp-pom-button-4096,
+#lp-pom-button-4331 {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.18);
+  transition: all 0.3s ease 0s;
+  }
+
+/*Child Section Static Shadow*/
+  
+#lp-pom-box-4619, 
+#lp-pom-box-4659, 
+#lp-pom-box-4679, 
+#lp-pom-box-5215, 
+#lp-pom-box-4739, 
+#lp-pom-box-4759, 
+#lp-pom-box-4779, 
+#lp-pom-box-5237, 
+#lp-pom-box-5257, 
+#lp-pom-box-5277, 
+#lp-pom-box-4551, 
+#lp-pom-box-5299, 
+#lp-pom-box-5313 {
+  -webkit-box-shadow: 2px 4px 14x -8px rgba(1,31,75,0.95); 
+  -moz-box-shadow: 2px 4px 14px -8px rgba(1,31,75,0.95); 
+  box-shadow: 2px 4px 14px -8px rgba(1,31,75,0.95);
+  -webkit-transition-duration: 1s ease-in-out;
+  -moz-transition-duration: 1s ease-in-out;
+}
+  
+/*Text Link Styling*/
+  
+.lp-pom-text a {
+  text-decoration: none !important;
+}
+
+</style>

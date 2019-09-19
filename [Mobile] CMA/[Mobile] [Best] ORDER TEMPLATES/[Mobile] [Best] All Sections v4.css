@@ -1,0 +1,84 @@
+<style>
+
+/*Fixed Fader Nav*/  
+
+#lp-pom-box-3704, #lp-pom-box-3704-color-overlay {display: none;}
+
+/*Button Shadows*/
+
+#lp-pom-button-3491, #lp-pom-button-3513, #lp-pom-button-3578 {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease 0s;
+  }
+  
+#lp-pom-button-3641, #lp-pom-button-3556, #lp-pom-button-3534, #lp-pom-button-3599, #lp-pom-button-3620, #lp-pom-button-4106, #lp-pom-button-4070, #lp-pom-button-3482, #lp-pom-button-4024, #lp-pom-button-4037, #lp-pom-button-4096 {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.18);
+  transition: all 0.3s ease 0s;
+  }
+
+/*Child Section Static Shadow*/
+  
+#lp-pom-box-3489, #lp-pom-box-3511, #lp-pom-box-3576, #lp-pom-box-3639, #lp-pom-box-3554, #lp-pom-box-3532, #lp-pom-box-3597, #lp-pom-box-3618, #lp-pom-box-4105, #lp-pom-box-4069, #lp-pom-box-4017, #lp-pom-box-4031, #lp-pom-box-4090 {
+  -webkit-box-shadow: 2px 4px 14x -8px rgba(1,31,75,0.95); 
+  -moz-box-shadow: 2px 4px 14px -8px rgba(1,31,75,0.95); 
+  box-shadow: 2px 4px 14px -8px rgba(1,31,75,0.95);
+  -webkit-transition-duration: 1s ease-in-out;
+  -moz-transition-duration: 1s ease-in-out;
+}
+  
+/*Text Link Styling*/
+  
+.lp-pom-text a {
+  text-decoration: none !important;
+}
+
+/* Advertiser Disclosure Tooltip */
+  
+.tooltip {
+  position: relative;
+}
+  
+.tooltip:before,
+.tooltip:after {
+  display: block;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+}
+  
+.tooltip:after {
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid rgba(0,0,0,.85); 
+  border-left: 10px solid transparent;
+  content: '';
+  height: 0;
+  top: 20px;
+  left: 20px;
+  width: 0;
+  border-radius: 6px;
+}
+  
+.tooltip:before {
+  background: rgba(0,0,0,.85);
+  border-radius: 6px;
+  color: #fff;
+  content: attr(data-title);
+  font-size: 8px;
+  padding: 10px 12px;
+  top: 26px;
+  white-space: pre-wrap;
+}
+  
+.tooltip.fade:after,
+.tooltip.fade:before {
+  transform: translate3d(0,-10px,0);
+  transition: all .15s ease-in-out;
+}
+  
+.tooltip.fade:hover:after,
+.tooltip.fade:hover:before {
+  opacity: 1;
+  transform: translate3d(0,0,0);
+}
+
+</style>

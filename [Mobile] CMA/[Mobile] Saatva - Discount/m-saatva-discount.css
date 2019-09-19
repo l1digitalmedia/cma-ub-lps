@@ -1,0 +1,11 @@
+<style>
+
+#lp-pom-box-76, #lp-pom-box-2601, #lp-pom-box-2608, #lp-pom-box-2641, #lp-pom-box-2648, #lp-pom-box-2655 {
+  -webkit-box-shadow: 2px 4px 14x -8px rgba(1,31,75,0.95); 
+  -moz-box-shadow: 2px 4px 14px -8px rgba(1,31,75,0.95); 
+  box-shadow: 2px 4px 14px -8px rgba(1,31,75,0.95);
+  -webkit-transition-duration: 1s ease-in-out;
+  -moz-transition-duration: 1s ease-in-out;
+}
+  
+</style>
