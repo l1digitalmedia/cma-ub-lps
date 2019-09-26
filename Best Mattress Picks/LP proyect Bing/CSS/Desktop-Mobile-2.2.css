@@ -1,0 +1,164 @@
+<style>
+ 
+/*Mobile Sticky Nav*/
+  
+@media only screen and (max-width:600px) {
+  
+  #lp-pom-box-4823, #lp-pom-box-4823-color-overlay {
+    position: fixed !important;
+    width: 100vw !important;
+    display: block !important;
+  }
+}
+
+/*mobile right button nav responsive*/
+@media screen and (max-width: 600px) and (min-width: 575px){
+  #lp-pom-button-4824{
+      margin-left: 250px;
+  }
+}
+
+@media screen and (max-width: 575px) and (min-width: 550px){
+  #lp-pom-button-4824{
+      margin-left: 230px;
+  }
+}
+
+@media screen and (max-width: 550px) and (min-width: 525px){
+  #lp-pom-button-4824{
+      margin-left: 200px;
+  }
+}
+
+@media screen and (max-width: 525px) and (min-width: 500px){
+  #lp-pom-button-4824{
+      margin-left: 180px;
+  }
+}
+
+@media screen and (max-width: 500px) and (min-width: 475px){
+  #lp-pom-button-4824{
+      margin-left: 150px;
+  }
+}
+
+@media screen and (max-width: 475px) and (min-width: 450px){
+  #lp-pom-button-4824{
+      margin-left: 125px;
+  }
+}
+
+@media screen and (max-width: 450px) and (min-width: 425px){
+  #lp-pom-button-4824{
+      margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 425px) and (min-width: 400px){
+  #lp-pom-button-4824{
+      margin-left: 78px;
+  }
+}
+
+@media screen and (max-width: 400px) and (min-width: 375px){
+  #lp-pom-button-4824{
+      margin-left: 54px;
+  }
+}
+
+@media screen and (max-width: 375px) and (min-width: 350px){
+  #lp-pom-button-4824{
+      margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 350px){
+  #lp-pom-button-4824{
+      margin-left: 10px;
+  }
+}
+  
+/*Button Hover Effects*/
+.lp-pom-button {
+ -webkit-transform: perspective(0px) translateZ(0);
+ transform: perspective(0px) translateZ(0);
+ -webkit-transition: all 0.3s;
+ transition: all 0.3s;
+}
+.lp-pom-button:hover {
+ -webkit-transform: translateX(4px);
+ transform: translateX(4px);
+}
+/*Saatva Main CTA Wiggle + Shadow*/
+#lp-pom-button-5800, #lp-pom-button-6310 {
+ -webkit-animation: btnWiggle 5s infinite;
+ -moz-animation: btnWiggle 5s infinite;
+ -o-animation: btnWiggle 5s infinite;
+ animation: btnWiggle 5s infinite;
+ box-shadow: 0px 8px 13px rgba(0, 0, 0, 0.2);
+}
+/*Saatva Bottom CTA Shadow*/
+#lp-pom-button-4493, #lp-pom-button-3949, #lp-pom-button-4203, #lp-pom-button-4505 {
+ box-shadow: 0px 8px 13px rgba(0, 0, 0, 0.2);
+}
+#lp-pom-button-4107:hover, #lp-pom-button-4493:hover, #lp-pom-button-3949:hover, #lp-pom-button-4203:hover, #lp-pom-button-4505:hover {
+ box-shadow: 0px 12px 15px rgba(255, 69, 0, 0.25);
+}
+/*Disclosure Lightbox + Nav Button No Hover*/
+#lp-pom-button-4829:hover,
+#lp-pom-button-4424:hover,
+#lp-pom-button-4079:hover,
+#lp-pom-button-4080:hover,
+#lp-pom-button-4081:hover {
+ -webkit-transform: translateX(0px);
+ transform: translateX(0px);
+}
+/*Button Wiggle animation*/
+@-webkit-keyframes btnWiggle {
+    0% {-webkit-transform: rotate(0deg);}
+    2% {-webkit-transform: rotate(-2deg);}
+    3.5% {-webkit-transform: rotate(2deg);}
+    5% {-webkit-transform: rotate(0deg);}
+    100% {-webkit-transform: rotate(0deg);}
+}
+@-o-keyframes btnWiggle {
+    0% {-webkit-transform: rotate(0deg);}
+    2% {-webkit-transform: rotate(-2deg);}
+    3.5% {-webkit-transform: rotate(2deg);}
+    5% {-webkit-transform: rotate(0deg);}
+    100% {-webkit-transform: rotate(0deg);}
+}
+@keyframes btnWiggle {
+    0% {-webkit-transform: rotate(0deg);}
+    2% {-webkit-transform: rotate(-2deg);}
+    3.5% {-webkit-transform: rotate(2deg);}
+    5% {-webkit-transform: rotate(0deg);}
+    100% {-webkit-transform: rotate(0deg);}
+}
+/*Text Link Styling*/
+.lp-pom-text a:link {
+ color: #3485FC !important;
+ text-decoration: none !important;
+ padding-bottom: 2px !important;
+}
+/*Header Link Styling*/
+#lp-pom-text-73 a:link {
+ color: #FFFFFF !important;
+}
+/*Footer Link Styling*/
+#lp-pom-text-3184 a:link {
+ color: #FFFFFF !important;
+ }
+  
+#lp-pom-text-4545 a:link {
+ color: #FFFFFF !important;
+ }
+  
+#lp-pom-box-5774, #lp-pom-text-5775{
+    opacity: 0;
+}
+  
+#lp-pom-button-4829:hover #lp-pom-box-5774 #lp-pom-text-5775{
+  opacity:1;
+}
+</style>
