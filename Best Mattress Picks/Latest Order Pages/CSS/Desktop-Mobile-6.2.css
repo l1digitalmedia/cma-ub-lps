@@ -1,170 +1,149 @@
+Page Effects
+
+<style>@media only screen and (max-width:600px){#lp-pom-box-4823,#lp-pom-box-4823-color-overlay{position:fixed!important;width:100vw!important;display:block!important}}@media screen and (max-width:600px) and (min-width:575px){#lp-pom-button-4824{margin-left:250px}}@media screen and (max-width:575px) and (min-width:550px){#lp-pom-button-4824{margin-left:230px}}@media screen and (max-width:550px) and (min-width:525px){#lp-pom-button-4824{margin-left:200px}}@media screen and (max-width:525px) and (min-width:500px){#lp-pom-button-4824{margin-left:180px}}@media screen and (max-width:500px) and (min-width:475px){#lp-pom-button-4824{margin-left:150px}}@media screen and (max-width:475px) and (min-width:450px){#lp-pom-button-4824{margin-left:125px}}@media screen and (max-width:450px) and (min-width:425px){#lp-pom-button-4824{margin-left:100px}}@media screen and (max-width:425px) and (min-width:400px){#lp-pom-button-4824{margin-left:78px}}@media screen and (max-width:400px) and (min-width:375px){#lp-pom-button-4824{margin-left:54px}}@media screen and (max-width:375px) and (min-width:350px){#lp-pom-button-4824{margin-left:30px}}@media screen and (max-width:350px){#lp-pom-button-4824{margin-left:10px}}.lp-pom-button{-webkit-transform:perspective(0) translateZ(0);transform:perspective(0) translateZ(0);-webkit-transition:all 0.3s;transition:all 0.3s}.lp-pom-button:hover{-webkit-transform:translateX(4px);transform:translateX(4px)}#lp-pom-button-5282,#lp-pom-button-5533{-webkit-animation:btnWiggle 5s infinite;-moz-animation:btnWiggle 5s infinite;-o-animation:btnWiggle 5s infinite;animation:btnWiggle 5s infinite;box-shadow:0 8px 13px rgba(0,0,0,.2)}#lp-pom-button-4493,#lp-pom-button-3949,#lp-pom-button-4203,#lp-pom-button-4505{box-shadow:0 8px 13px rgba(0,0,0,.2)}#lp-pom-button-4107:hover,#lp-pom-button-4493:hover,#lp-pom-button-3949:hover,#lp-pom-button-4203:hover,#lp-pom-button-4505:hover{box-shadow:0 12px 15px rgba(255,69,0,.25)}#lp-pom-button-4829:hover,#lp-pom-button-4424:hover,#lp-pom-button-5898:hover,#lp-pom-button-5897:hover,#lp-pom-button-5922:hover{-webkit-transform:translateX(0);transform:translateX(0)}@-webkit-keyframes btnWiggle{0%{-webkit-transform:rotate(0deg)}2%{-webkit-transform:rotate(-2deg)}3.5%{-webkit-transform:rotate(2deg)}5%{-webkit-transform:rotate(0deg)}100%{-webkit-transform:rotate(0deg)}}@-o-keyframes btnWiggle{0%{-webkit-transform:rotate(0deg)}2%{-webkit-transform:rotate(-2deg)}3.5%{-webkit-transform:rotate(2deg)}5%{-webkit-transform:rotate(0deg)}100%{-webkit-transform:rotate(0deg)}}@keyframes btnWiggle{0%{-webkit-transform:rotate(0deg)}2%{-webkit-transform:rotate(-2deg)}3.5%{-webkit-transform:rotate(2deg)}5%{-webkit-transform:rotate(0deg)}100%{-webkit-transform:rotate(0deg)}}.lp-pom-text a:link{color:#3485FC!important;text-decoration:none!important;padding-bottom:2px!important}#lp-pom-text-73 a:link{color:#FFFFFF!important}#lp-pom-text-3184 a:link{color:#FFFFFF!important}#lp-pom-text-4545 a:link{color:#FFFFFF!important}#lp-pom-box-5774,#lp-pom-text-5775{opacity:0}#lp-pom-button-4829:hover #lp-pom-box-5774 #lp-pom-text-5775{opacity:1}
+	
+  
+  
+  #lp-pom-text-6775 span,
+  #lp-pom-text-5261 span,
+  #lp-pom-text-5532 span,
+  #lp-pom-text-6754 span,
+  #lp-pom-text-6754 span,
+  #lp-pom-text-6778 span,
+  #lp-pom-text-6800 span,
+  #lp-pom-text-6802 span,
+  #lp-pom-text-6824 span,
+  #lp-pom-text-6840 span,
+  #lp-pom-text-6848 span,
+  #lp-pom-text-6850 span,
+  #lp-pom-text-6872 span,
+  #lp-pom-text-6894 span,
+  #lp-pom-text-6896 span,
+  #lp-pom-text-6917 span,
+  #lp-pom-text-6920 span,
+  #lp-pom-text-6942 span,
+  #lp-pom-text-6962 span,
+  #lp-pom-text-6983 span,
+  #lp-pom-text-6984 span,
+  #lp-pom-text-6985 span,
+  #lp-pom-text-6574 span,
+  #lp-pom-text-6573 span,
+  #lp-pom-text-6553 span,
+  #lp-pom-text-6552 span,
+  #lp-pom-text-7006 span,
+  #lp-pom-text-7007 a,
+  #lp-pom-text-7008 a,
+  #lp-pom-text-7009 a,
+  #lp-pom-text-7029 a,
+  #lp-pom-text-7031 a,
+  #lp-pom-text-7026 a,
+  #lp-pom-text-7052 a,
+  #lp-pom-text-7054 a,
+  #lp-pom-text-7056 a,
+  #lp-pom-text-7049 span,
+  #lp-pom-text-7074 span,
+  #lp-pom-text-7076 span,
+  #lp-pom-text-7097 span,
+  #lp-pom-text-7101 span,
+  #lp-pom-text-7094 span,
+  #lp-pom-text-7117 span,
+  #lp-pom-text-7142 span,
+  #lp-pom-text-7144 span,
+  #lp-pom-text-7146 span,
+  #lp-pom-text-7165 span,
+  #lp-pom-text-7167 span,
+  #lp-pom-text-7169 span,
+  #lp-pom-text-7162 span,
+  #lp-pom-text-5442 span{
+  color:#2c2c2c !important;
+  }
+  
+  #lp-pom-text-5548 span,
+  #lp-pom-text-6592 span,
+  #lp-pom-text-6608 span,
+  #lp-pom-text-6620 span,
+  #lp-pom-text-6640 span,
+  #lp-pom-text-6616 span,
+  #lp-pom-text-6632 span,
+  #lp-pom-text-6628 span
+  {color:#a7a7a7}
+  
+  #lp-pom-text-6202 a,
+  #lp-pom-text-6206 span{
+  	color: #fff !important;
+  }
+  #lp-pom-text-6560 span,
+  #lp-pom-text-5281 a{
+  color:#ff4500 !important;
+  }
+  
+  #lp-pom-text-5506 span{
+  color:#525252 !important;
+  }
+  
+  #lp-pom-text-6768 span,
+  #lp-pom-text-6842 span,
+  #lp-pom-text-6869 span,
+  #lp-pom-text-6890 span,
+  #lp-pom-text-6935 span,
+  #lp-pom-text-6959 span,
+  #lp-pom-text-6629 span,
+  #lp-pom-text-6637 span,
+  #lp-pom-text-6633 span,
+  #lp-pom-text-6309 span,
+  #lp-pom-text-6621 span,
+  #lp-pom-text-6641 span,
+  #lp-pom-text-7050 span,
+  #lp-pom-text-7027 sapn,
+  #lp-pom-text-7010 span,
+  #lp-pom-text-7095 span,
+  #lp-pom-text-7118 span,
+  #lp-pom-text-7140 span,
+  #lp-pom-text-7163 span,
+  #lp-pom-text-7027 span,
+  #lp-pom-text-5266 span{
+  color:#011f4b !important;
+  }
+  
+  #lp-pom-box-6374,#lp-pom-text-6375{opacity:0}
+u{
+  text-decoration: none !important;
+  background-image: linear-gradient(180deg,transparent 70%,rgba(101,125,225,.4) 0) !important;
+  font-weight: 600 !important;
+  color: #525252 !important;
+}
+
+.lp-pom-box {
+   cursor: pointer;
+}
+  
+.lp-element.lp-pom-box {
+  transition: width 0.5s, left 0.5s;
+}
+</style>
+
+
+
+
+angled_sections.css
+
 <style>
- 
-/*Mobile Sticky Nav*/
-  
-@media only screen and (max-width:600px) {
-  
-  #lp-pom-box-4823, #lp-pom-box-4823-color-overlay {
-    position: fixed !important;
-    width: 100vw !important;
-    display: block !important;
-  }
+/*This ensures diagonal bg doesn't block page content*/
+.lp-positioned-content{
+  z-index: 100;  
 }
-
-/*mobile right button nav responsive*/
-@media screen and (max-width: 600px) and (min-width: 575px){
-  #lp-pom-button-5453{
-      margin-left: 250px;
-  }
-}
-
-@media screen and (max-width: 575px) and (min-width: 550px){
-  #lp-pom-button-5453{
-      margin-left: 230px;
-  }
-}
-
-@media screen and (max-width: 550px) and (min-width: 525px){
-  #lp-pom-button-5453{
-      margin-left: 200px;
-  }
-}
-
-@media screen and (max-width: 525px) and (min-width: 500px){
-  #lp-pom-button-5453{
-      margin-left: 180px;
-  }
-}
-
-@media screen and (max-width: 500px) and (min-width: 475px){
-  #lp-pom-button-5453{
-      margin-left: 150px;
-  }
-}
-
-@media screen and (max-width: 475px) and (min-width: 450px){
-  #lp-pom-button-5453{
-      margin-left: 125px;
-  }
-}
-
-@media screen and (max-width: 450px) and (min-width: 425px){
-  #lp-pom-button-5453{
-      margin-left: 100px;
-  }
-}
-
-@media screen and (max-width: 425px) and (min-width: 400px){
-  #lp-pom-button-5453{
-      margin-left: 78px;
-  }
-}
-
-@media screen and (max-width: 400px) and (min-width: 375px){
-  #lp-pom-button-5453{
-      margin-left: 54px;
-  }
-}
-
-@media screen and (max-width: 375px) and (min-width: 350px){
-  #lp-pom-button-5453{
-      margin-left: 30px;
-  }
-}
-
-@media screen and (max-width: 350px){
-  #lp-pom-button-5453{
-      margin-left: 10px;
-  }
-}
-/*Button Hover Effects*/
-.lp-pom-button {
- -webkit-transform: perspective(0px) translateZ(0);
- transform: perspective(0px) translateZ(0);
- -webkit-transition: all 0.3s;
- transition: all 0.3s;
-}
-.lp-pom-button:hover {
- -webkit-transform: translateX(4px);
- transform: translateX(4px);
-}
-/*Saatva Main CTA Wiggle + Shadow*/
-#lp-pom-button-5282, #lp-pom-button-5533 {
- -webkit-animation: btnWiggle 5s infinite;
- -moz-animation: btnWiggle 5s infinite;
- -o-animation: btnWiggle 5s infinite;
- animation: btnWiggle 5s infinite;
- box-shadow: 0px 8px 13px rgba(0, 0, 0, 0.2);
-}
-/*Saatva Bottom CTA Shadow*/
-#lp-pom-button-4493, #lp-pom-button-3949, #lp-pom-button-4203, #lp-pom-button-4505 {
- box-shadow: 0px 8px 13px rgba(0, 0, 0, 0.2);
-}
-#lp-pom-button-4107:hover, #lp-pom-button-4493:hover, #lp-pom-button-3949:hover, #lp-pom-button-4203:hover, #lp-pom-button-4505:hover {
- box-shadow: 0px 12px 15px rgba(255, 69, 0, 0.25);
-}
-/*Nav Button Fix*/
-#lp-pom-button-4829:hover,
-#lp-pom-button-4079:hover,
-#lp-pom-button-4080:hover,
-#lp-pom-button-4081:hover {
- -webkit-transform: translateX(0px);
- transform: translateX(0px);
-}
-/*Button Wiggle animation*/
-@-webkit-keyframes btnWiggle {
-    0% {-webkit-transform: rotate(0deg);}
-    2% {-webkit-transform: rotate(-2deg);}
-    3.5% {-webkit-transform: rotate(2deg);}
-    5% {-webkit-transform: rotate(0deg);}
-    100% {-webkit-transform: rotate(0deg);}
-}
-@-o-keyframes btnWiggle {
-    0% {-webkit-transform: rotate(0deg);}
-    2% {-webkit-transform: rotate(-2deg);}
-    3.5% {-webkit-transform: rotate(2deg);}
-    5% {-webkit-transform: rotate(0deg);}
-    100% {-webkit-transform: rotate(0deg);}
-}
-@keyframes btnWiggle {
-    0% {-webkit-transform: rotate(0deg);}
-    2% {-webkit-transform: rotate(-2deg);}
-    3.5% {-webkit-transform: rotate(2deg);}
-    5% {-webkit-transform: rotate(0deg);}
-    100% {-webkit-transform: rotate(0deg);}
-}
-/*Text Link Styling*/
-.lp-pom-text a:link {
- color: #3485FC !important;
- text-decoration: none !important;
- padding-bottom: 2px !important;
-}
-/*Header Link Styling*/
-#lp-pom-text-73 a:link {
- color: #FFFFFF !important;
-}
-/*Footer Link Styling*/
-#lp-pom-text-3184 a:link {
- color: #FFFFFF !important;
- }
-  
-#lp-pom-text-4545 a:link {
- color: #FFFFFF !important;
- }
-  
-#lp-pom-text-5532 a:link {
-color: #000 !important;
-}
-
-#lp-pom-text-5261 a:link {
-color: #000 !important;
-}
-
-#lp-pom-box-5933, #lp-pom-text-5934{
-    opacity: 0;
-}
-  
-#lp-pom-button-4829:hover #lp-pom-box-5933 #lp-pom-text-5934{
-  opacity:1;
+/*Replace #lp-pom-block-34 with your section ID to create an angled bottom*/
+#lp-pom-block-4901:after{
+  background: inherit;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(+2.00 deg); /*change to increase/decrease angle*/
+  transform-origin: 100%;
+  z-index: 1; 
 }
 </style>
